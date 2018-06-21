@@ -1,0 +1,110 @@
+7:569  1:162  Found UEFI Acpi 2.0 RSDP at CABAF000
+7:569  0:000  Saving ACPI tables from RSDP CABAF000 to EFI\CLOVER\ACPI\origin ...
+7:569  0:000   CABAF000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+7:581  0:011    (Xsdt: CABAF0A0, Rsdt: CABAF028)
+7:581  0:000    CABAF0A0: 'XSDT', 'WN09   ', Rev: 1, Len: 188 -> XSDT.aml
+7:587  0:006    CABAF028: 'RSDT', 'WN09   ', Rev: 1, Len: 112 -> RSDT.aml
+7:594  0:006    Tables in Xsdt: 19
+7:594  0:000    0. CABBF7C8: 'FACP', 'WN09', Rev: 5, Len: 268 -> FACP.aml
+7:600  0:006        (Dsdt: CABAF1E8, Facs: CB569F80, XDsdt: CABAF1E8, XFacs: 0)
+7:600  0:000        CABAF1E8: 'DSDT', 'WN09', Rev: 2, Len: 67040 -> DSDT.aml
+7:614  0:014        CB569F80: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+7:621  0:006    1. CABBF8D8: 'APIC', 'WN09', Rev: 3, Len: 114 -> APIC.aml
+7:627  0:006    2. CABBF950: 'FPDT', 'WN09', Rev: 1, Len: 68 -> FPDT.aml
+7:634  0:006    3. CABBF998: 'ASF!', ' HCG', Rev: 32, Len: 165 -> ASF!.aml
+7:640  0:006    4. CABBFA40: 'LPIT', '', Rev: 1, Len: 148 -> LPIT.aml
+7:647  0:006    5. CABBFAD8: 'SSDT', 'sensrhub', Rev: 1, Len: 552 -> SSDT-0.aml
+7:653  0:006    6. CABBFD00: 'SLIC', 'WN09   ', Rev: 1, Len: 374 -> SLIC.aml
+7:660  0:006    7. CABBFE78: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+ Found hidden SSDT 4 pcs
+7:660  0:000        * C9006598: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337  53 53 44 54 39 05 00 00 01 DE 50 6D 52 65 66 00 Internal length = 1337 -> SSDT-2x.aml
+7:667  0:006        * CAB9B618: 'SSDT', 'ApIst', Rev: 1, Len: 1450  53 53 44 54 AA 05 00 00 01 D3 50 6D 52 65 66 00 Internal length = 1450 -> SSDT-3x.aml
+7:673  0:006        * CAB9BC18: 'SSDT', 'Cpu0Cst', Rev: 1, Len: 979  53 53 44 54 D3 03 00 00 01 B3 50 6D 52 65 66 00 Internal length = 979 -> SSDT-4x.aml
+7:680  0:006        * CAB4DD98: 'SSDT', 'ApCst', Rev: 1, Len: 281  53 53 44 54 19 01 00 00 01 EF 50 6D 52 65 66 00 Internal length = 281 -> SSDT-5x.aml
+7:688  0:007   -> SSDT-1.aml
+7:694  0:006    8. CABC0950: 'MCFG', 'WN09', Rev: 1, Len: 60 -> MCFG.aml
+7:701  0:006    9. CABC0990: 'HPET', 'WN09', Rev: 1, Len: 56 -> HPET.aml
+7:707  0:006    10. CABC09C8: 'SSDT', 'SataTabl', Rev: 1, Len: 789 -> SSDT-6.aml
+7:714  0:006    11. CABC0CE0: 'SSDT', 'SaSsdt ', Rev: 1, Len: 13733 -> SSDT-7.aml
+7:722  0:007    12. CABC4288: 'SSDT', 'SgPch', Rev: 1, Len: 2418 -> SSDT-8.aml
+7:729  0:006    13. CABC4C00: 'MSDM', 'WN09   ', Rev: 3, Len: 85 -> MSDM.aml
+7:735  0:006    14. CABC4C58: 'SSDT', 'MeSsdt ', Rev: 1, Len: 75 -> SSDT-9.aml
+7:742  0:006    15. CABC4CA8: 'TPM2', '', Rev: 3, Len: 52 -> TPM2.aml
+7:748  0:006    16. CABC4CE0: 'SSDT', 'OptTabl', Rev: 1, Len: 6478 -> SSDT-10.aml
+7:755  0:006    17. CABC6630: 'CSRT', 'HSWULT-R', Rev: 1, Len: 196 -> CSRT.aml
+7:762  0:006    18. CABC66F8: 'BGRT', 'WN09', Rev: 0, Len: 56 -> BGRT.aml
+7:768  0:006    Tables in Rsdt: 19
+7:768  0:000    0. CABAF160: 'FACP', 'WN09', Rev: 2, Len: 132 -> RSDT-FACP.aml
+7:775  0:006        (Dsdt: CABAF1E8, Facs: CB569F40)
+7:775  0:000        CABAF1E8: 'DSDT', 'WN09', Rev: 2, Len: 67040
+7:776  0:001        CB569F40: 'FACS', Ver: 0, Len: 64 -> RSDT-FACS.aml
+7:783  0:006    1. CABBF8D8: 'APIC', 'WN09', Rev: 3, Len: 114
+7:783  0:000    2. CABBF950: 'FPDT', 'WN09', Rev: 1, Len: 68
+7:783  0:000    3. CABBF998: 'ASF!', ' HCG', Rev: 32, Len: 165
+7:783  0:000    4. CABBFA40: 'LPIT', '', Rev: 1, Len: 148
+7:783  0:000    5. CABBFAD8: 'SSDT', 'sensrhub', Rev: 1, Len: 552
+7:783  0:000    6. CABBFD00: 'SLIC', 'WN09   ', Rev: 1, Len: 374
+7:783  0:000    7. CABBFE78: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+7:783  0:000    8. CABC0950: 'MCFG', 'WN09', Rev: 1, Len: 60
+7:783  0:000    9. CABC0990: 'HPET', 'WN09', Rev: 1, Len: 56
+7:783  0:000    10. CABC09C8: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+7:783  0:000    11. CABC0CE0: 'SSDT', 'SaSsdt ', Rev: 1, Len: 13733
+7:783  0:000    12. CABC4288: 'SSDT', 'SgPch', Rev: 1, Len: 2418
+7:783  0:000    13. CABC4C00: 'MSDM', 'WN09   ', Rev: 3, Len: 85
+7:783  0:000    14. CABC4C58: 'SSDT', 'MeSsdt ', Rev: 1, Len: 75
+7:783  0:000    15. CABC4CA8: 'TPM2', '', Rev: 3, Len: 52
+7:783  0:000    16. CABC4CE0: 'SSDT', 'OptTabl', Rev: 1, Len: 6478
+7:783  0:000    17. CABC6630: 'CSRT', 'HSWULT-R', Rev: 1, Len: 196
+7:783  0:000    18. CABC66F8: 'BGRT', 'WN09', Rev: 0, Len: 56
+7:783  0:000  Found UEFI Acpi 1.0 RSDP at CABAF000
+7:783  0:000  Printing ACPI tables from RSDP CABAF000 ...
+7:783  0:000   CABAF000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+7:783  0:000    (Xsdt: CABAF0A0, Rsdt: CABAF028)
+7:783  0:000    CABAF0A0: 'XSDT', 'WN09   ', Rev: 1, Len: 188
+7:783  0:000    CABAF028: 'RSDT', 'WN09   ', Rev: 1, Len: 112
+7:783  0:000    Tables in Xsdt: 19
+7:783  0:000    0. CABBF7C8: 'FACP', 'WN09', Rev: 5, Len: 268
+7:783  0:000        (Dsdt: CABAF1E8, Facs: CB569F80, XDsdt: CABAF1E8, XFacs: 0)
+7:783  0:000        CABAF1E8: 'DSDT', 'WN09', Rev: 2, Len: 67040
+7:785  0:001        CB569F80: 'FACS', Ver: 2, Len: 64
+7:785  0:000    1. CABBF8D8: 'APIC', 'WN09', Rev: 3, Len: 114
+7:785  0:000    2. CABBF950: 'FPDT', 'WN09', Rev: 1, Len: 68
+7:785  0:000    3. CABBF998: 'ASF!', ' HCG', Rev: 32, Len: 165
+7:785  0:000    4. CABBFA40: 'LPIT', '', Rev: 1, Len: 148
+7:785  0:000    5. CABBFAD8: 'SSDT', 'sensrhub', Rev: 1, Len: 552
+7:785  0:000    6. CABBFD00: 'SLIC', 'WN09   ', Rev: 1, Len: 374
+7:785  0:000    7. CABBFE78: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+7:785  0:000    8. CABC0950: 'MCFG', 'WN09', Rev: 1, Len: 60
+7:785  0:000    9. CABC0990: 'HPET', 'WN09', Rev: 1, Len: 56
+7:785  0:000    10. CABC09C8: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+7:785  0:000    11. CABC0CE0: 'SSDT', 'SaSsdt ', Rev: 1, Len: 13733
+7:785  0:000    12. CABC4288: 'SSDT', 'SgPch', Rev: 1, Len: 2418
+7:785  0:000    13. CABC4C00: 'MSDM', 'WN09   ', Rev: 3, Len: 85
+7:785  0:000    14. CABC4C58: 'SSDT', 'MeSsdt ', Rev: 1, Len: 75
+7:785  0:000    15. CABC4CA8: 'TPM2', '', Rev: 3, Len: 52
+7:785  0:000    16. CABC4CE0: 'SSDT', 'OptTabl', Rev: 1, Len: 6478
+7:785  0:000    17. CABC6630: 'CSRT', 'HSWULT-R', Rev: 1, Len: 196
+7:785  0:000    18. CABC66F8: 'BGRT', 'WN09', Rev: 0, Len: 56
+7:785  0:000    Tables in Rsdt: 19
+7:785  0:000    0. CABAF160: 'FACP', 'WN09', Rev: 2, Len: 132
+7:785  0:000        (Dsdt: CABAF1E8, Facs: CB569F40)
+7:785  0:000        CABAF1E8: 'DSDT', 'WN09', Rev: 2, Len: 67040
+7:787  0:001        CB569F40: 'FACS', Ver: 0, Len: 64
+7:787  0:000    1. CABBF8D8: 'APIC', 'WN09', Rev: 3, Len: 114
+7:787  0:000    2. CABBF950: 'FPDT', 'WN09', Rev: 1, Len: 68
+7:787  0:000    3. CABBF998: 'ASF!', ' HCG', Rev: 32, Len: 165
+7:787  0:000    4. CABBFA40: 'LPIT', '', Rev: 1, Len: 148
+7:787  0:000    5. CABBFAD8: 'SSDT', 'sensrhub', Rev: 1, Len: 552
+7:787  0:000    6. CABBFD00: 'SLIC', 'WN09   ', Rev: 1, Len: 374
+7:787  0:000    7. CABBFE78: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+7:787  0:000    8. CABC0950: 'MCFG', 'WN09', Rev: 1, Len: 60
+7:787  0:000    9. CABC0990: 'HPET', 'WN09', Rev: 1, Len: 56
+7:787  0:000    10. CABC09C8: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+7:787  0:000    11. CABC0CE0: 'SSDT', 'SaSsdt ', Rev: 1, Len: 13733
+7:787  0:000    12. CABC4288: 'SSDT', 'SgPch', Rev: 1, Len: 2418
+7:787  0:000    13. CABC4C00: 'MSDM', 'WN09   ', Rev: 3, Len: 85
+7:787  0:000    14. CABC4C58: 'SSDT', 'MeSsdt ', Rev: 1, Len: 75
+7:787  0:000    15. CABC4CA8: 'TPM2', '', Rev: 3, Len: 52
+7:787  0:000    16. CABC4CE0: 'SSDT', 'OptTabl', Rev: 1, Len: 6478
+7:787  0:000    17. CABC6630: 'CSRT', 'HSWULT-R', Rev: 1, Len: 196
+7:787  0:000    18. CABC66F8: 'BGRT', 'WN09', Rev: 0, Len: 56
